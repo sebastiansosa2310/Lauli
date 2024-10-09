@@ -1,0 +1,281 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+a{ 
+text-decoration: none;
+}
+
+header{
+    background-color: rgb(255, 38, 30);   
+}
+
+.principio{
+    height: calc(100vh - 290px);
+}
+
+.foto{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+h1{
+    color:aqua;
+    font-size: 50px;
+    font-family: cursive;
+    font-weight:150px;
+    font-weight:bold;
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    background-color: rgb(155, 43, 43);
+}
+
+.navbar-brand{
+    color: rgb(231, 27, 27);
+}
+
+.form-controlme-2{
+    background-color: red;
+}
+
+.btn-outline-success{
+color: crimson;
+}
+
+.d-flex{
+    color: black;
+}
+header nav div ul li a{
+    background-color: crimson;
+
+}
+header h2{
+    color: rgba(243, 232, 232, 0.288);
+    display: flex;
+    justify-content: center;
+}
+
+.boton{
+    background-color: white;
+    border-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    background-color:rgb(134, 9, 9);
+}
+
+.sabana{
+    text-align:justify;
+    color:brown;
+}
+
+.botella{
+    text-align: justify;
+    color: brown;
+}
+
+.acolchado{
+    text-align: justify;
+    color: brown;
+}
+
+.almohadon{
+    text-align: justify;
+    color: brown;
+}
+
+.letras{
+    text-align: justify;
+    color: brown;
+}
+
+.pantalon{
+    text-align: justify;
+    color: brown;
+}
+
+.gorra{
+    text-align: justify;
+    color: brown;
+}
+
+.hero h2{
+    text-decoration: underline;
+    padding: 10px;
+    color:black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hero h3{
+    color:ivory
+
+}
+.hero1 h3{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.hero1 div{
+    border:2px solid white;
+    width: 300px;
+    text-align: center;
+    }    
+
+.hero1{
+    font-family:cursive;
+    text-align: justify;
+    background-color: cadetblue;
+    color: black;
+    
+}
+
+.hero h3{
+    color: red;
+    background-color: ivory;
+    padding: 20px;
+}
+
+.textoquienes h3{
+    color:black;
+    font-family: cursive;
+    text-decoration: double;
+}
+
+.hero1 div img{
+    width: 300px;
+}
+
+
+.hero1{
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.grid-container {
+    width: 100%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-auto-rows: 250px;
+    gap: 30px;
+    
+}
+.grid-container div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: -3px 46px 238px -14px rgba(240,0,0,0.88);
+-webkit-box-shadow: -3px 46px 238px -14px rgba(240,0,0,0.88);
+-moz-box-shadow: -3px 46px 238px -14px rgba(240,0,0,0.88);
+}
+
+.grid1{
+    grid-column: span 3;
+}
+
+.grid0{
+    grid-column: span 3;
+    width: 100%;
+    height: 100%;
+}
+
+.grid2{
+    grid-row: span 2;
+}
+
+.grid4{
+    grid-row: span 2;
+}
+
+.grid{
+    position: relative;
+}
+
+.grid h3{
+    position: absolute;
+    bottom:auto;
+    color: crimson;
+    background-color: rgba(241, 239, 239, 0.068);
+}
+
+
+footer{
+    background-color: lightskyblue;
+    background-image: url(../img/monumental1);
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover;
+}
+
+footer{
+    padding: 20px;
+}
+
+footer div a img{
+    background-color: ivory;
+    width: 30px;
+    padding: 10px;
+}
+
+.footerproducto{
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and(max-width:1325px) {
+    .principio{
+        flex-direction:column ;
+    }
+    .hero{
+        width: 100%;
+    }
+    .hero1{
+        width: 100%;
+    }
+    .footer1{
+        width: 100%;
+    }
+}
+
+@media screen and(max-width:900px) {
+    .principio{
+        flex-direction:column ;
+    }
+    .hero{
+        width: 100%;
+    }
+    .hero1{
+        width: 100%;
+    }
+    .footer1{
+        width: 100%;
+    }
+    }
+
+    @media screen and (max-width:400px){
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2 ,1fr);
+            grid-auto-rows: 250px;
+        }
+        .grid{
+            grid-column: span 1;
+            grid-row: span 1;
+        }
+    }
+    
